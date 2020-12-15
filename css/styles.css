@@ -528,3 +528,165 @@ header nav {
   color: white;
 }
 /*================ Home Page Styling ================*/
+
+
+/*================ Agency Page Styling ================*/
+#agency-hero {
+    height: 60vh;
+    border-bottom: 3px  solid #fb8142;
+}
+
+.content-over-img-r,
+.content-over-img-l {
+    height: 400px;
+    margin: 125px 0px;
+}
+
+.content-over-img-r h2 {
+    font-size: 48px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 690px;
+    position: absolute;
+    left: 15%;
+    margin-top: 40px;
+}
+
+.content-over-img-r p {
+    padding: 200px 50px;
+    text-align: left;
+    font-size: 24px;
+    color: #333333;
+}
+
+.content-over-img-r img {
+    float: right;
+    width: 600px;
+    height: 400px;
+    border-right: 8px solid #fb8142;
+}
+
+.content-over-img-l h2 {
+    font-size: 48px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 690px;
+    position: absolute;
+    right: 15%;
+    margin-top: 40px;
+}
+
+.content-over-img-l img {
+    float: left;
+    width: 600px;
+    height: 400px;
+    border-left: 8px solid #fb8142;
+}
+
+.content-over-img-l p {
+    padding: 200px 50px 0px 640px;
+    text-align: left;
+    font-size: 24px;
+    color: #333333;
+}
+
+.founded h3,
+.rebrand h3 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fb8142;
+}
+
+.foundeed h3 {
+  color: #fb8142;
+}
+
+.rebrand h3 {
+    color: #f3b844;
+}
+
+.brand img {
+  margin: 0px 200px;
+}
+
+.founded {
+    margin: 200px 0px 100px;
+}
+
+.rebrand {
+    margin: 100px 0px 200px;
+}
+/*================ Agency Page Styling ================*/
+
+
+/*================ Capabilities Page Styling ================*/
+#capabilities-hero {
+    height: 60vh;
+    border-bottom: 3px  solid #fb8142;
+}
+
+.service-card {
+    margin: 50px 0px;
+    border-radius: 10px;
+    width: 1200px;
+    height: 250px;
+    border: 2px solid #fb8142;
+}
+
+.service-card:hover {
+  border: 2px solid #f3b844;
+}
+
+.service-card img {
+    height: 246px;
+    width: 325px;
+    border-radius: 8px 0px 0px 8px;
+    display: inline-block;
+}
+
+.card-content {
+    padding: 40px 75px;
+    display: inline-block;
+    width: 860px;
+    position: absolute;
+}
+
+.card-content h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card-content p {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 22px;
+}
+
+.service-card:first-child {
+  margin-top: 125px;
+}
+
+.service-card:last-child {
+  margin-bottom: 200px;
+}
+
+.contact-cta {
+    margin: 150px 0px;
+}
+
+.contact-cta h3 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #333333
+}
+
+.contact-cta a {
+  margin: 0px 495px;
+}
+/*================ Capabilities Page Styling ================*/
