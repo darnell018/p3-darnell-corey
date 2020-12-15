@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Let's Create | REACTIV</title>
+
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <!--Stylesheet Links-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="site-logo">
+        <a href="index.html"><img src="images/reactiv-logo.png" alt="National Parks Logo" /></a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="agency.html">Agency</a></li>
+          <li><a href="capabilities.html">Capabilities</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <ul>
+      <li><a id="contact-us" href="contact.html">LET'S CREATE</a> </li>
+      </ul>
+    </section>
+
+    <main>
+      <section class="contact-container">
+        <div class="lets-create">
+          <h1>Let's Create</h1>
+        </div>
+
+        <div class="contact-side-container">
+          <div class="contact-form">
+            <h2>Questions</h2>
+
+            <form id="lets-create-form" name="lets-create-form" class="trooper-apply" method="POST" action="form.php" onsubmit="return validateForm(this)">
+              <div class="name">
+                <label for="name">Name</label>
+                <input type="text" name="req_name" id="name" class="flname" placeholder="Name...">
+              </div>
+
+              <div class="telephone">
+                <label for="phone">Phone</label>
+                <input type="tel" name="req_phone" id="phone" class="phone" placeholder="Phone...">
+              </div>
+
+              <div class="email-address">
+                <label for="email">Email</label>
+                <input type="email" name="req_email" id="email" class="email" placeholder="Email...">
+              </div>
+
+              <div class="comments">
+                <label for="comment">Ask Away</label>
+                <textarea name="comment" id="comment" class="comment" rows="8" cols="80" placeholder="Ask Away..."></textarea>
+              </div>
+
+              <div class="submit-bttn">
+                <input type="submit" class="submit-button" name="submit" value="submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-wrap">
+      <div class="footer-container">
+        <div class="foot-block">
+          <div class="contact-info">
+            <h2>Where To find Us</h2>
+            <a href="tel:813.564.7091">813.564.7091</a>
+            <a href="mailto:info@goreactiv.io">info@goreactiv.io</a>
+          </div>
+        </div>
+        <div class="foot-block">
+          <div class="footer-logo">
+            <a href="https://goreactiv.io"><img src="images/footer/footer-mark.png" alt="REACTIV R Logo" title="REACTIV R Logo" id="footer-logo"></a>
+          </div>
+        </div>
+        <div class="foot-block">
+          <div class="social-footer">
+            <h2>@goReactiv</h2>
+            <p>Follow us to stay up to date!</p>
+            <a href="https://facebook.com/goreactiv" target="_blank"><img src="images/footer/fb-icon.png" alt="Facebook" title="Facebook"></a>
+            <a href="https://instagram.com/goreactiv" target="_blank"><img src="images/footer/ig-icon.png" alt="Instagram" title="Instagram"></a>
+            <a href="https://twitter.com/goreactiv" target="_blank"><img src="images/footer/tw-icon.png" alt="Twitter" title="Twitter"></a>
+          </div>
+        </div>
+        <p class="copyright">Copyright 2020. All rights reserved. Designed & Developed by Corey Darnell.</p>
+      </div>
+    </footer>
+  </body>
