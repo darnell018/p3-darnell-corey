@@ -690,3 +690,112 @@ header nav {
   margin: 0px 495px;
 }
 /*================ Capabilities Page Styling ================*/
+
+
+/*================ Contact Page Styling ================*/
+.contact-container {
+  top: 55px;
+  position: relative;
+  z-index: 99;
+  margin-bottom: 52px;
+}
+
+.lets-create {
+  background: url('../images/main-bkg-15.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 40%;
+  display: inline-block;
+}
+
+.lets-create h1 {
+  color: transparent;
+  font-weight: 900;
+  font-size: 72px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 45%;
+  left: 4%;
+  -webkit-text-stroke: 2px #fb8142;
+}
+
+.contact-side-container {
+    max-width: 58%;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    right: 10%;
+}
+
+.contact-form {
+  padding: 115px 0px;
+}
+
+.contact-form h2 {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.contact-form label {
+  display: none;
+}
+
+#lets-create-form {
+    padding: 25px 175px 0;
+}
+
+#name, #phone, #email {
+  border: 3px solid #fb8142;
+  border-radius: 50px;
+  width: 475px;
+  height: 53px;
+  margin: 10px 0px;
+  padding: 0 25px;
+  font-size: 18px;
+  font-family: 'montserrat', sans-serif;
+}
+
+#comment {
+  border: 3px solid #FB8142;
+  border-radius: 10px;
+  width: 475px;
+  height: 175px;
+  margin: 10px 0px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-family: 'montserrat', sans-serif;
+}
+
+.submit-button {
+  width: 189px;
+  height: 41px;
+  left: 775px;
+  top: 881px;
+  background: #FB8142;
+  border-radius: 50px;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.submit-button:hover {
+  background: #f3b844;
+  transition: .3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/*================ Contact Page Styling ================*/
