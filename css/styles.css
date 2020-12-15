@@ -1,0 +1,530 @@
+/*================ Universal Styling ================================*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  font-family: 'montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+    line-height: 26px;
+    margin: 15px 0;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #333333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.rounded-button {
+  padding: 10px 30px;
+  background-color: #fb8142;
+  border-radius: 50px;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  transition: background-color .3s ease;
+}
+
+.rounded-button:hover {
+  background-color: #f3b844;
+  transition: background-color .3s ease;
+}
+/*================ Universal Styling ================================*/
+
+
+/*================ Navigation Styling ================================*/
+header {
+  background: linear-gradient(45deg, #fb8142, #f3b844, #fb8142);
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 0 15px;
+}
+
+header nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color .3s ease;
+}
+
+header nav a:hover {
+  color: #333333;
+  transition: color .3s ease;
+}
+
+.site-logo ,
+header nav {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 50px;
+}
+
+.site-logo img {
+  height: 35px;
+  margin: 7px 0px;
+}
+
+#contact-us {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 25px 35px;
+  position: fixed;
+  top: 0;
+  right: 50px;
+  transition: background-color .3s ease;
+  z-index: 101;
+}
+
+#contact-us:hover {
+  background-color: #f3b844;
+  transition: background-color .3s ease;
+}
+/*================ Navigation Styling ================*/
+
+
+/*================ Home Page Styling ================*/
+.main-hero {
+  background: url('../images/main-bkg-15.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  top: 70px;
+}
+
+.main-hero h1 {
+  font-weight: 800;
+  text-align: center;
+  color: #fb8142;
+  font-size: 5vw;
+  padding-top: 25vh;
+  padding-bottom: 1vh;
+  text-transform: uppercase;
+}
+
+.s-block-wrap h2 {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.tagline p {
+  font-family: 'montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.s-block-wrap {
+  width: 100%;
+  height: 10vh;
+  white-space: nowrap;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 3px 0;
+}
+
+.service-block {
+  background: #333;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  width: 33.18%;
+  padding: 25px;
+  transition: background-color .3s ease;
+}
+
+.service-block:hover {
+  background-color: #f3b844;
+  transition: background-color .3s ease;
+}
+
+#graphic-design {
+  height: 700px;
+  padding: 125px 0px;
+}
+
+#graphic-design h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #fb8142;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.graphic-design-container {
+  width: 100%;
+  height: 550px;
+}
+
+.graphic-design {
+  padding: 80px 16.75px;
+  display: inline-block;
+}
+
+.graphic-design h3 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #fb8142;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.graphic-design:first-child {
+  padding-left: 0px;
+}
+
+.graphic-design:last-child {
+  padding-right: 0px;
+}
+
+.graphic-design img {
+  width: 375px;
+  height: 225px;
+  display: block;
+  transition: opacity .3s ease;
+}
+
+.graphic-design img:hover {
+  opacity: .7;
+  transition: opacity .3s ease;
+}
+
+#graphic-design h3 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+
+.graphic-design p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 0;
+  text-align: left;
+  color: #333333;
+}
+
+.case-title {
+  display: inline-block;
+  width: 85%;
+  padding-top: 15px;
+}
+
+.readmore-bttn {
+  display: none;
+  padding-top: 15px;
+}
+
+.readmore-bttn img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Home-Videography Styling */
+.videography-container {
+  height: 615px;
+  padding: 125px 0px;
+}
+
+.video-content {
+  position: absolute;
+  float: left;
+  display: inline-block;
+  width: 475px;
+}
+
+.video-content img,
+.video-content h2 {
+  display: inline-block;
+}
+
+.video-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333333;
+  line-height: 39px;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+
+.video-content p {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.video-preview {
+  display: inline-block;
+  float: right;
+  width: 700px;
+  padding: 0px 0px 0px 80px;
+}
+
+/* Video-Image Switching styling */
+.video {
+  position: relative;
+  height: 349px;
+  width: 620px;
+  background: #333333;
+  position: absolute;
+}
+
+.video img {
+  opacity: .65;
+  width: 620px;
+  height: 349px;
+}
+
+.play {
+  height: 41px;
+  width: 189px;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  /*Centering*/
+  margin: 100px 0 0 -100px;
+  left: 50%;
+  top: 50%;
+  display: block;
+  background: #fb8142;
+  transition: background-color 0.3s ease;
+  color: white;
+  cursor: pointer;
+}
+
+.play:hover {
+  background: #f3b844;
+}
+
+.play p {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0px;
+  padding: 7px 0px;
+}
+
+/* Video-Image Switching styling */
+#web-design {
+  height: 615px;
+  padding: 125px 0px;
+}
+
+.web-design-content {
+  position: absolute;
+  float: right;
+  display: inline-block;
+  width: 455px;
+}
+
+.web-design-content img,
+.web-design-content h2 {
+  display: inline-block;
+}
+
+.web-design-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333333;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-left: 25px;
+  position: relative;
+  bottom: 35px;
+}
+
+.web-design-content p {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.web-design-preview {
+  display: inline-block;
+  float: left;
+  width: 755px;
+}
+
+.web-design-preview img {
+  padding-right: 40px;
+  width: 350px;
+}
+
+.clients {
+  height: 375px;
+  padding: 50px 0px;
+}
+
+.clients h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #fb8142;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.clients p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #333333;
+}
+
+.clients img {
+  width: 150px;
+  height: 75px;
+  display: inline-block;
+  margin: 40px 3.6% 140px;
+  transition: .2s;
+}
+
+.client-logo img:hover {
+  opacity: .5;
+  transition: .2s;
+}
+
+/* Footer Styling*/
+.footer-wrap {
+  background: url('../images/footer-bkg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 340px;
+ }
+
+.foot-block {
+  display: inline-block;
+  padding: 50px 50px;
+  text-align: center;
+  color: white;
+  width: 330px;
+}
+
+.footer-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.foot-block:first-child {
+  padding: 75px 50px 0px 0px;
+  position: relative;
+  top: -56px;
+}
+
+.foot-block:nth-child(3) {
+  padding: 0px 0px 0px 50px;
+}
+
+.foot-block p {
+  color: white;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.contact-info h2 {
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.contact-info a {
+  font-family: 'montserrat', sans-serif;
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 24px;
+  display: block;
+  padding: 5px 0px;
+  transition: opacity .2s ease;
+}
+
+.contact-info a:hover {
+  opacity: 0.7;
+  transition: opacity .2s ease;
+}
+
+.social-footer img {
+  margin: 10px;
+  display: inline-block;
+  transition: opacity .2s ease;
+}
+
+.social-footer img:hover {
+  opacity: 0.7;
+  transition: opacity .2s ease;
+}
+
+.copyright {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+/*================ Home Page Styling ================*/
