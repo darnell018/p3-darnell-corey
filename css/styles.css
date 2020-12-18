@@ -167,6 +167,13 @@ header nav {
   display: inline-block;
 }
 
+.s-block-wrap h2:hover {
+  animation-duration: 1s;
+  animation-name: space-title;
+  animation-iteration-count: 1;
+}
+
+
 .tagline p {
   font-family: 'montserrat', sans-serif;
   font-weight: bold;
@@ -818,3 +825,30 @@ button:focus {
 }
 
 /*================ Contact Page Styling ================*/
+
+
+
+
+/*================ Animations ================*/
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes space-title {
+  from {
+    transform: translateX(0px);
+  }
+
+  to {
+    transform: translateX(-10px);
+  }
+}
